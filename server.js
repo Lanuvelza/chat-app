@@ -14,8 +14,8 @@ io.on('connection', (socket) => {
   socket.on('message', function(msg) {
     io.emit('message', msg)
   })
-})
+});
 
 server.listen(8080, () => {
   console.log('Chat server running');
-})
+});
