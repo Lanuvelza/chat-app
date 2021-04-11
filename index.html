@@ -3,10 +3,29 @@
 
   <head>
     <title>chat-app</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
+    <link rel="stylesheet" href="styles.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
-    <h1>Document Object Model</h1>
+    <header>
+      <h1>Chat-App</h1>
+    </header>
+    <main> 
+      <ol id="history">
+        <li>DV says: hey</li>
+        <li>KV says: hey there, DV</li>
+        <li>DV says: how are you?</li>
+        <li>KV says: I'm good thanks, you?</li>
+      </ol>
+      <form>
+        <input id="initials">
+        <input id="message">
+        <button>Send</button>
+      </form>
+    </main>
   </body>
 
 </html>
